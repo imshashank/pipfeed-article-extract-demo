@@ -24,7 +24,7 @@ def setup_test_files():
 
 def test_pipfeed_api(setup_test_files):
     input_file, output_file = setup_test_files
-    api_key = 'clusi6tp60003lb0c12wnt8ss'  # Replace with your actual Pipfeed API key
+    api_key = ''  # Replace with your actual magicapi API key
 
     # Run the main function to process the input CSV and create the output CSV
     main(input_file, output_file, api_key)

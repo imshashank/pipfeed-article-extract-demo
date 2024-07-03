@@ -61,5 +61,5 @@ def main(input_file, output_file, api_key):
 if __name__ == "__main__":
     input_file = 'input.csv'
     output_file = 'output.csv'
-    api_key = 'clusi6tp60003lb0c12wnt8ss'  # Replace with your actual Pipfeed API key
+    api_key = ''  # Replace with your actual magicapi API key
     main(input_file, output_file, api_key)
