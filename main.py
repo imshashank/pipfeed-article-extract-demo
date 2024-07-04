@@ -61,5 +61,5 @@ def main(input_file, output_file, api_key):
 if __name__ == "__main__":
     input_file = 'input.csv'
     output_file = 'output.csv'
-    api_key = ''  # Replace with your actual magicapi API key
+    api_key = 'YOUR_API_KEY_HERE'  # Replace with your actual magicapi API key
     main(input_file, output_file, api_key)
