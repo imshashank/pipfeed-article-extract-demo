@@ -6,7 +6,7 @@ This script uses the Pipfeed API to extract and summarize articles from URLs pro
 You can find the documentation for this API at [Pipfeed](https://docs.api.market/api-product-docs/magicapi/pipfeeds-extract-api-developer-documentation)
 
 ### Run through Replit
-You can run this whole script through [replit](https://replit.com/@hello737/Pipfeed-article-extract#main.py)
+You can run this whole script through [replit](https://replit.com/@hello737/Pipfeed-article-extract#pipfeed-article-extract-demo/main.py)
 
 ## What This Script Does
 
@@ -66,7 +66,7 @@ You can run this whole script through [replit](https://replit.com/@hello737/Pipf
 ### Option 2: Use Replit
 
 1. **Fork the Replit Project:**
-   Go to [Replit](https://replit.com/@hello737/Pipfeed-article-extract#main.py) and fork the project.
+   Go to [Replit](https://replit.com/@hello737/Pipfeed-article-extract#pipfeed-article-extract-demo/main.py) and fork the project.
 
 2. **Prepare Your Input File:**
    Add your `input.csv` file to the Replit workspace. This file should contain the URLs of the articles you want to process, one URL per line. We already have an `input.csv` file in the replit workspace.
