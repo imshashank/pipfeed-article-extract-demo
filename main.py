@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+api_key = os.getenv('API_KEY')  # Get API key from environment variables
+
 # Function to call Pipfeed API and fetch article data
 def fetch_article_data(url, api_key, queue):
     headers = {
@@ -39,6 +41,9 @@ def read_urls_from_csv(input_file):
 
 # Main function to load URLs, fetch data, and write to CSV
 def main(input_file, output_file, api_key):
+    if not api_key:
+        print("No API key found. Please add your API key to the .env file.")
+        return
     urls = read_urls_from_csv(input_file)
     data = []
     queue = Queue()
@@ -65,5 +70,4 @@ def main(input_file, output_file, api_key):
 if __name__ == "__main__":
     input_file = 'pipfeed-article-extract-demo/input.csv'
     output_file = 'pipfeed-article-extract-demo/output.csv'
-    api_key = os.getenv('API_KEY')  # Get API key from environment variables
     main(input_file, output_file, api_key)

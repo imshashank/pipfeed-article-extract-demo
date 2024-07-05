@@ -17,7 +17,7 @@ You can run this whole script through [replit](https://replit.com/@hello737/Pipf
 ## Requirements
 
 - Python 3.x
-- `requests` library (install with `pip install requests`)
+- install with `pip install requirements.txt`
 
 ## How to Use
 
