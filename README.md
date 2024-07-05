@@ -55,7 +55,7 @@ You can run this whole script through [replit](https://replit.com/@hello737/Pipf
 
 6. **Install Dependencies:**
    ```bash
-   pip3 install requests
+   pip3 install requirements.txt
    ```
 
 7. **Run the Script:**
