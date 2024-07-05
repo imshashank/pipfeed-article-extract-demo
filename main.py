@@ -41,8 +41,8 @@ def read_urls_from_csv(input_file):
 
 # Main function to load URLs, fetch data, and write to CSV
 def main(input_file, output_file, api_key):
-    if not api_key:
-        print("No API key found. Please add your API key to the .env file.")
+    if not api_key or api_key == 'YOUR_API_KEY_HERE':
+        print("No API key found or incorrect KEY. Please add your API key to the .env file.")
         return
     urls = read_urls_from_csv(input_file)
     data = []
