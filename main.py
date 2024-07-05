@@ -63,7 +63,7 @@ def main(input_file, output_file, api_key):
 
 # Run the script
 if __name__ == "__main__":
-    input_file = 'input.csv'
-    output_file = 'output.csv'
+    input_file = 'pipfeed-article-extract-demo/input.csv'
+    output_file = 'pipfeed-article-extract-demo/output.csv'
     api_key = os.getenv('API_KEY')  # Get API key from environment variables
     main(input_file, output_file, api_key)

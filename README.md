@@ -50,7 +50,7 @@ You can run this whole script through [replit](https://replit.com/@hello737/Pipf
 
 
 5. **Update the Script:**
-   Replace the placeholder `YOUR_API_KEY_HERE` in the script with your actual API key.
+   Replace the placeholder `YOUR_API_KEY_HERE` in the `.env` file with your actual API key.
 
 
 6. **Install Dependencies:**
@@ -86,7 +86,8 @@ You can run this whole script through [replit](https://replit.com/@hello737/Pipf
 
 
 4. **Update the Script:**
-   Replace the placeholder `YOUR_API_KEY_HERE` in the script with your actual API key.
+   Replace the placeholder `YOUR_API_KEY_HERE` in the `.env` file with your actual API key.
+   `.env` is usually hidden by replit so make sure to unhide the file and then replacing your API Key in there. 
 
 
 5. **Run the Script:**
